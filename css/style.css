@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+h3{
+    margin: 10px 0;
+}
+.container{
+    padding: 6px;
+}
+.main{
+    display: flex;
+}
+.main .nav{
+    width: 17%;
+}
+.main .nav li{
+    list-style: none;
+    background: lightblue;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+.main a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    width: 60%;
+    margin: 20px;
+}
+.side{
+    width: 23%;
+    background: burlywood;
+    margin-bottom: 10px; 
+}
+
+/* responsive code */
+@media screen and (max-width: 600px){
+    .main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main .nav{
+        width: 100%;
+    }
+    
+}
