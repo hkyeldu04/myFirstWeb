@@ -39,10 +39,17 @@ h3{
 @media screen and (max-width: 600px){
     .main{
         flex-direction: column;
-        text-align: center;
     }
     .main .nav{
         width: 100%;
     }
-    
+    .content{
+        width: 95%;
+        margin: 2px;
+    }
+    .side{
+        width: 95%;
+        padding: 4px;
+        margin-top: 8px;
+    }
 }
